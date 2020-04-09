@@ -8,3 +8,10 @@ We use using these web technologies to develop this project:
 * DATABASE - MySQL
 
 Also, we will be using multiple API to get the latest exchange rates on this web portal.
+
+# Team Members
+
+* Dhairya Chandra - 5
+* Tanvi Jain - 11
+* Ashish Pant - 19
+* Josh Qguntimehin - 18 
