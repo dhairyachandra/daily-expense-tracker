@@ -1,4 +1,4 @@
-# Expense Tracker - Web Application
+# Daily Expense Tracker - Web Application
 
 The main objective of Expense Tracker is to gain deeper knowledge of Web Development technologies.
 We use using these web technologies to develop this project:
