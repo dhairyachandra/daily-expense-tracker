@@ -32,7 +32,7 @@ if(isset($_POST['login']))
 <body>
 
 	<div class="row">
-			<h2 align="center">Daily Expense Tracker - Team 1</h2>
+			<h2 align="center">Daily Expense Tracker</h2>
 	<hr />
 		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 			<div class="login-panel panel panel-default">
@@ -50,12 +50,10 @@ if(isset($_POST['login']))
 							<div class="form-group">
 								<input class="form-control" placeholder="Password" name="password" type="password" value="" required="true">
 							</div>
-							<center>
 							<div class="checkbox">
-								<button type="submit" value="login" name="login" class="btn btn-primary">login</button>
-								<span style="padding-left:250px"><a href="register.php" class="btn btn-primary">Register</a></span>
+								<button type="submit" value="login" name="login" class="btn btn-primary">login</button><span style="padding-left:250px">
+								<a href="register.php" class="btn btn-primary">Register</a></span>
 							</div>
-							</center>
 							</fieldset>
 					</form>
 				</div>
