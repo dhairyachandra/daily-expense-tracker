@@ -4,10 +4,9 @@ error_reporting(0);
 include('includes/dbconnection.php');
 if (strlen($_SESSION['detsuid']==0)) {
   header('location:logout.php');
-  } else{
-
-  
-
+  }
+   else{
+	
   ?>
 <!DOCTYPE html>
 <html>
@@ -67,7 +66,7 @@ $sum_today_expense=$result['todaysexpense'];
 
 						<h4>Today's Expense</h4>
 						
-						<div class="easypiechart" id="easypiechart-blue" data-percent="<?php echo $sum_today_expense;?>" ><span class="percent">$<?php if($sum_today_expense==""){
+						<div class="easypiechart" id="easypiechart-blue" data-percent="<?php echo $sum_today_expense;?>" ><span class="percent"><?php if($sum_today_expense==""){
 echo "0";
 } else {
 echo $sum_today_expense;
